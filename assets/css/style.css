@@ -1,9 +1,11 @@
+/* the "*" indicates that this is a universal selector. gives style to whole html file */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* this is a element selectors from line 9 to line 53. gives style to the specific element listed */
 body {
     background-color: #d9dcd6;
 }
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* these are class attribute selectors because it has the "." in the front which indicates that. line 56 to line 133 gives style to all class attributes with the same name. */
 .hero {
     height: 800px;
     width: 100%;
@@ -130,7 +133,7 @@ p {
 }
 
 
-
+/* these are also element selectors */
 footer {
     padding: 30px;
     clear: both;
